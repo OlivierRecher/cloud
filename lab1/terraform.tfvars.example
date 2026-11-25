@@ -1,0 +1,7 @@
+docker_host     = "unix:///Users/olivierrecher/.docker/run/docker.sock"
+image_name      = "nginx:latest"
+memory          = 256
+privileged      = false
+container_count = 3
+name_prefix     = "web"
+start_port      = 3000
